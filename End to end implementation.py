@@ -237,7 +237,8 @@ X_test=scaler.transform(X_test)
 
 
 # In[41]:
-
+import pickle
+pickle.dump(scaler,open('scaling.pkl','wb'))
 
 X_train
 
